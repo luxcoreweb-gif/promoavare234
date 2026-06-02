@@ -1,0 +1,38 @@
+{
+  "name": "Avaré Promoções",
+  "short_name": "Avaré Promo",
+  "description": "Encontre as melhores promoções em Avaré",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#ffffff",
+  "theme_color": "#C9922A",
+  "orientation": "portrait",
+  "categories": ["shopping", "business", "lifestyle"],
+  "icons": [
+    {
+      "src": "avare192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "avare512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buscar Empresa",
+      "short_name": "Buscar",
+      "description": "Busque por estabelecimentos",
+      "url": "/?search=true",
+      "icons": [{ "src": "avare192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
